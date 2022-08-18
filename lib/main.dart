@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+mport 'package:google_fonts/google_fonts.dart';
+import 'package:avatar_glow/avatar_glow.dart';
 
 void main() {
   runApp(const MyApp());
@@ -233,7 +235,7 @@ class _HomePageState extends State<HomePage> {
               )
             ],
           );
-        });
+        }); 
 
   }
 
